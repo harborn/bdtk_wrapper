@@ -1,0 +1,6 @@
+[submodule "third_party/velox"]
+	path = third_party/velox
+	url = https://github.com/facebookincubator/velox
+[submodule "third_party/bdtk"]
+	path = third_party/bdtk
+	url = https://github.com/intel/BDTK
