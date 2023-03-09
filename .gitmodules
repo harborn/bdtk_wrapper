@@ -4,3 +4,9 @@
 [submodule "third_party/bdtk"]
 	path = third_party/bdtk
 	url = https://github.com/intel/BDTK
+[submodule "third_party/glog"]
+	path = third_party/glog
+	url = https://github.com/google/glog
+[submodule "third_party/googletest"]
+	path = third_party/googletest
+	url = https://github.com/google/googletest
