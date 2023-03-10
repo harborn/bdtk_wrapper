@@ -20,4 +20,6 @@ find BDTK/ -name libyaml-cpp.a -exec cp {} lib/ \;
 find BDTK/ -name libcider_util.a -exec cp {} lib/ \;
 find BDTK/ -name libcider_type_plan.a -exec cp {} lib/ \;
 find BDTK/ -name libvelox_exec_test_lib.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_dwio_common_test_utils.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_vector_test_lib.a -exec cp {} lib/ \;
 
