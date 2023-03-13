@@ -22,4 +22,12 @@ find BDTK/ -name libcider_type_plan.a -exec cp {} lib/ \;
 find BDTK/ -name libvelox_exec_test_lib.a -exec cp {} lib/ \;
 find BDTK/ -name libvelox_dwio_common_test_utils.a -exec cp {} lib/ \;
 find BDTK/ -name libvelox_vector_test_lib.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_dwio_parquet_reader.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_exec_test_lib.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_dwio_native_parquet_reader.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_dwio_parquet_thrift.a -exec cp {} lib/ \;
+find BDTK/ -name libsubstrait.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_dwio_duckdb_parquet_reader.a -exec cp {} lib/ \;
+find BDTK/ -name libvelox_temp_path.a -exec cp {} lib/ \;
+find BDTK/ -name libthrift.a -exec cp {} lib/ \;
 

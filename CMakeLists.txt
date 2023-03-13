@@ -141,6 +141,7 @@ include_directories(.)
 include_directories(velox)
 include_directories(velox/velox/substrait/proto)
 include_directories(velox/velox/external/xxhash)
+include_directories(velox/third_party/xsimd/include)
 include_directories(${VELOX_ROOT})
 
 add_subdirectory(velox)
